@@ -1,0 +1,7 @@
+<div>
+  <span style="font-size: 1em; color: #888">Most recent</span>
+  <app-quote [quote]="mostCurrentQuote" color="#F7AB80"></app-quote>
+  <hr>
+  <span style="font-size: 1em; color: #888">Others </span>
+  <app-quote *ngFor="let quote of sortedByLikesExcludingCurrentQuote" [quote]="quote"></app-quote>
+</div>

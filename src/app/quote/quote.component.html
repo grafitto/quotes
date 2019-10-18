@@ -1,0 +1,12 @@
+<div id="quote" #quoteBlock>
+  <div id="quote-section" class="sections">
+    <p>"{{ quote.text }}"</p>
+    <span><mat-icon>person</mat-icon> {{ quote.author }}</span>
+  </div>
+  <div id="metadata-section" class="sections">
+    <div id="likes">
+      <span (click)="like()">{{ quote.likes }} <mat-icon>thumb_up</mat-icon></span>
+    </div>
+    <div id="timestamp">{{ convertedTime }}</div>
+  </div>
+</div>

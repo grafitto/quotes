@@ -1,0 +1,54 @@
+#form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#form-container div {
+    align-content: stretch;
+    width: 97%;
+    margin: 6px 3px 6px 3px;
+}
+
+span {
+    font-size: 28px;
+    color: #888;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px #ddd;
+    
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+#button-group{
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    flex-grow: 5;
+    font-size: 28px;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 10px #ccc;
+    border-radius: 4px;
+}
+
+#post {
+    background-color: cornflowerblue;
+}
+
+#clear {
+    background-color: #FA5757;
+}

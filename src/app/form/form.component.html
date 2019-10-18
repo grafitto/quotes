@@ -1,0 +1,22 @@
+<div id="form-container">
+  <div id="author-group">
+    <div>
+      <span>Author</span>
+    </div>
+    <div>
+      <input placeholder="E.g John Doe" id="author" [(ngModel)]="author">
+    </div>
+  </div>
+  <div id="quote-group">
+    <div>
+      <span>Quote</span>
+    </div>
+    <div>
+      <textarea placeholder="Enter quote here" id="quote" rows="8" [(ngModel)]="quote"></textarea>
+    </div>
+  </div>
+  <div id="button-group">
+      <button id="post" (click)="post()">Post</button>
+      <button id="clear" (click)="clear()">Clear</button>
+  </div>
+</div>

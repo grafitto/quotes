@@ -1,0 +1,17 @@
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+    background-color: #fafafa;
+
+}
+
+#list {
+    margin: 15px
+}
+
+#form {
+    flex-grow: 5;
+}

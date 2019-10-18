@@ -1,0 +1,62 @@
+#quote {
+    display: flex;
+    flex-direction: row;
+    background-color: #3CDAFF;
+    max-width: 900px;
+    min-height: 100px;
+    margin: 5px 0px 10px 0px;
+    border: none;
+    box-shadow: 1px 1px 10px #ddd;
+    border-radius: 4px;
+    padding: 10px 5px 10px 5px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+span {
+    font-style: italic;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.sections {
+    padding: 10px;
+    color: white;
+}
+
+#quote-section {
+    flex-grow: 7;
+}
+#quote-section p {
+    max-width: 70%
+}
+#metadata-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#likes {
+    flex-grow: 7;
+}
+
+#likes span {
+    align-content: right;
+    cursor: pointer;
+}
+
+#likes span:hover {
+    font-size: 22px;
+}
+
+#timestamp {
+    font-size: 0.7em;
+}
+#metadata {
+    flex-grow: 3;
+}
+
+
